@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 const corsOptions = {
-  origin: ['http://localhost:3000', 'https://creator.zwei.fun/partners'],
+  origin: ['http://localhost:3000', 'https://creator.zwei.fun'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
