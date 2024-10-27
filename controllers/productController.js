@@ -40,7 +40,7 @@ const fetchProductList = async (req, res) => {
 
   try {
     // Формируем URL для Brain API
-    const url = `http://api.brain.com.ua/products/${categoryID}?authKey=${authKey}`;
+    const url = `http://api.brain.com.ua/products/${categoryID}/${authKey}`;
     console.log(`Запрашиваем URL: ${url}`);
 
     // Получаем список продуктов по категории
