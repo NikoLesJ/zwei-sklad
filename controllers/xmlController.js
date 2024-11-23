@@ -39,6 +39,12 @@ exports.updateXMLProm = async (req, res) => {
   await updateXMLFile(req, res, phpScriptUrl);
 };
 
+// Обновление XML HOTLINE
+exports.updateXMLHli = async (req, res) => {
+  const phpScriptUrl = 'https://3gdoma.net/prices/adminxml/pages/react-xml-update-hli.php';
+  await updateXMLFile(req, res, phpScriptUrl);
+};
+
 // Получение XML-файла
 const fetchXML = async (url, res) => {
   try {

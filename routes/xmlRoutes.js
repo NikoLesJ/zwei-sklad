@@ -7,6 +7,7 @@ router.post('/update-xml', xmlController.updateXML);
 router.post('/update-rozetka', xmlController.updateXMLRozetka);
 router.post('/update-allo', xmlController.updateXMLAllo);
 router.post('/update-prom', xmlController.updateXMLProm);
+router.post('/update-hli', xmlController.updateXMLHli);
 router.get('/get-xml', xmlController.getXML);
 router.get('/get-xml-roz', xmlController.getXMLRoz);
 router.get('/get-xml-allo', xmlController.getXMLAllo);
